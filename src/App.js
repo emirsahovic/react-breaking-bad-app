@@ -1,6 +1,12 @@
+import CharacterList from "./components/CharacterList/CharacterList";
+import Navbar from "./components/Navbar/Navbar";
+import './index.css';
+
 function App() {
   return (
-    <div>
+    <div className="h-screen">
+      <Navbar />
+      <CharacterList />
     </div>
   );
 }
